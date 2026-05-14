@@ -1,0 +1,95 @@
+[2026-05-13T16:28:27.630+0000] {processor.py:161} INFO - Started process (PID=34368) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:28:27.630+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:28:27.631+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:27.631+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:28:27.634+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:27.633+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:27.634+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:28:27.650+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.027 seconds
+[2026-05-13T16:30:13.132+0000] {processor.py:161} INFO - Started process (PID=35479) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:13.137+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:30:13.139+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:13.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:13.146+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:13.144+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:13.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:13.208+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.094 seconds
+[2026-05-13T16:30:44.471+0000] {processor.py:161} INFO - Started process (PID=36027) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:44.471+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:30:44.472+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:44.472+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:44.477+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:44.476+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:44.477+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:30:44.498+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.036 seconds
+[2026-05-13T16:31:15.505+0000] {processor.py:161} INFO - Started process (PID=36475) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:15.505+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:31:15.506+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:15.509+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.508+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:15.510+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:15.525+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.026 seconds
+[2026-05-13T16:31:48.924+0000] {processor.py:161} INFO - Started process (PID=36916) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:48.925+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:31:48.925+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:48.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:48.929+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:48.928+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:48.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:31:48.946+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.028 seconds
+[2026-05-13T16:32:19.728+0000] {processor.py:161} INFO - Started process (PID=37319) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:32:19.729+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py for tasks to queue
+[2026-05-13T16:32:19.729+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:19.729+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:32:19.732+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:19.732+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py", line 33, in <module>
+    from airflow.providers.standard.operators.python import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:19.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py
+[2026-05-13T16:32:19.756+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_python_operator.py took 0.034 seconds

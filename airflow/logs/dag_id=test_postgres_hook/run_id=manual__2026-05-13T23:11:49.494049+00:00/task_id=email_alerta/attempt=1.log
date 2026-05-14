@@ -1,0 +1,47 @@
+[2026-05-13T23:13:10.215+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-13T23:13:10.228+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_postgres_hook.email_alerta manual__2026-05-13T23:11:49.494049+00:00 [queued]>
+[2026-05-13T23:13:10.233+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_postgres_hook.email_alerta manual__2026-05-13T23:11:49.494049+00:00 [queued]>
+[2026-05-13T23:13:10.233+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-13T23:13:10.246+0000] {taskinstance.py:2330} INFO - Executing <Task(EmailOperator): email_alerta> on 2026-05-13 23:11:49.494049+00:00
+[2026-05-13T23:13:10.252+0000] {standard_task_runner.py:64} INFO - Started process 70086 to run task
+[2026-05-13T23:13:10.254+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'test_postgres_hook', 'email_alerta', 'manual__2026-05-13T23:11:49.494049+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/test_postgres.py', '--cfg-path', '/tmp/tmp_7am6351']
+[2026-05-13T23:13:10.255+0000] {standard_task_runner.py:91} INFO - Job 113: Subtask email_alerta
+[2026-05-13T23:13:10.282+0000] {task_command.py:426} INFO - Running <TaskInstance: test_postgres_hook.email_alerta manual__2026-05-13T23:11:49.494049+00:00 [running]> on host codespaces-c105b0
+[2026-05-13T23:13:10.490+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_postgres_hook' AIRFLOW_CTX_TASK_ID='email_alerta' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T23:11:49.494049+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-13T23:11:49.494049+00:00'
+[2026-05-13T23:13:10.491+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-13T23:13:10.497+0000] {logging_mixin.py:188} WARNING - /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2026-05-13T23:13:10.497+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2026-05-13T23:13:10.781+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-13T23:13:10.782+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/operators/email.py", line 79, in execute
+    send_email(
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/utils/email.py", line 281, in send_mime_email
+    smtp_conn.login(smtp_user, smtp_password)
+  File "/home/codespace/.python/current/lib/python3.12/smtplib.py", line 750, in login
+    raise last_exception
+  File "/home/codespace/.python/current/lib/python3.12/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/smtplib.py", line 662, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cc33a67csm1525477c88.13 - gsmtp')
+[2026-05-13T23:13:10.786+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=test_postgres_hook, task_id=email_alerta, run_id=manual__2026-05-13T23:11:49.494049+00:00, execution_date=20260513T231149, start_date=20260513T231310, end_date=20260513T231310
+[2026-05-13T23:13:10.795+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 113 for task email_alerta ((535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a92af1059eb24-134cc33a67csm1525477c88.13 - gsmtp'); 70086)
+[2026-05-13T23:13:10.831+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-05-13T23:13:10.850+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-13T23:13:10.853+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,79 @@
+[2026-05-13T16:28:45.728+0000] {processor.py:161} INFO - Started process (PID=34611) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:28:45.729+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-13T16:28:45.733+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:45.733+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:28:45.738+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:45.737+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:45.738+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:28:45.756+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.044 seconds
+[2026-05-13T16:30:30.531+0000] {processor.py:161} INFO - Started process (PID=35778) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:30:30.532+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-13T16:30:30.534+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:30.533+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:30:30.544+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:30.540+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:30.545+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:30:30.580+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.057 seconds
+[2026-05-13T16:31:02.655+0000] {processor.py:161} INFO - Started process (PID=36307) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:02.656+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-13T16:31:02.657+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:02.656+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:02.660+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:02.659+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:02.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:02.679+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.031 seconds
+[2026-05-13T16:31:33.556+0000] {processor.py:161} INFO - Started process (PID=36708) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:33.557+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-13T16:31:33.557+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:33.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:33.560+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:33.560+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:33.561+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:31:33.587+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.037 seconds
+[2026-05-13T16:32:06.035+0000] {processor.py:161} INFO - Started process (PID=37147) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:32:06.035+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py for tasks to queue
+[2026-05-13T16:32:06.036+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:06.036+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:32:06.039+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:06.038+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py", line 28, in <module>
+    from airflow.providers.standard.operators.bash import BashOperator
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:06.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py
+[2026-05-13T16:32:06.054+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_outlet_event_extra.py took 0.026 seconds

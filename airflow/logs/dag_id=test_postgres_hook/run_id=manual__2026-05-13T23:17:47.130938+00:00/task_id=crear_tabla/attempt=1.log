@@ -1,0 +1,26 @@
+[2026-05-13T23:17:54.602+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-13T23:17:54.616+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_postgres_hook.crear_tabla manual__2026-05-13T23:17:47.130938+00:00 [queued]>
+[2026-05-13T23:17:54.620+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_postgres_hook.crear_tabla manual__2026-05-13T23:17:47.130938+00:00 [queued]>
+[2026-05-13T23:17:54.621+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-13T23:17:54.631+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): crear_tabla> on 2026-05-13 23:17:47.130938+00:00
+[2026-05-13T23:17:54.636+0000] {standard_task_runner.py:64} INFO - Started process 73678 to run task
+[2026-05-13T23:17:54.638+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'test_postgres_hook', 'crear_tabla', 'manual__2026-05-13T23:17:47.130938+00:00', '--job-id', '121', '--raw', '--subdir', 'DAGS_FOLDER/test_postgres.py', '--cfg-path', '/tmp/tmpg676zkve']
+[2026-05-13T23:17:54.638+0000] {standard_task_runner.py:91} INFO - Job 121: Subtask crear_tabla
+[2026-05-13T23:17:54.667+0000] {task_command.py:426} INFO - Running <TaskInstance: test_postgres_hook.crear_tabla manual__2026-05-13T23:17:47.130938+00:00 [running]> on host codespaces-c105b0
+[2026-05-13T23:17:54.815+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_postgres_hook' AIRFLOW_CTX_TASK_ID='crear_tabla' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T23:17:47.130938+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-13T23:17:47.130938+00:00'
+[2026-05-13T23:17:54.816+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-13T23:17:54.821+0000] {base.py:84} INFO - Using connection ID 'postgres_local' for task execution.
+[2026-05-13T23:17:54.827+0000] {sql.py:495} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS alumnos (
+            id SERIAL PRIMARY KEY,
+            nombre VARCHAR(50),
+            edad INT
+        );
+    , parameters: None
+[2026-05-13T23:17:54.828+0000] {logging_mixin.py:188} INFO - Tabla creada correctamente.
+[2026-05-13T23:17:54.829+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-05-13T23:17:54.829+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-13T23:17:54.833+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_postgres_hook, task_id=crear_tabla, run_id=manual__2026-05-13T23:17:47.130938+00:00, execution_date=20260513T231747, start_date=20260513T231754, end_date=20260513T231754
+[2026-05-13T23:17:54.893+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-05-13T23:17:54.911+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-13T23:17:54.916+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

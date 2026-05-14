@@ -1,0 +1,95 @@
+[2026-05-13T16:28:34.679+0000] {processor.py:161} INFO - Started process (PID=34458) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:28:34.679+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:28:34.680+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:34.680+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:28:34.682+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:34.681+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:34.682+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:28:34.694+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.111 seconds
+[2026-05-13T16:30:20.180+0000] {processor.py:161} INFO - Started process (PID=35612) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:20.181+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:30:20.182+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:20.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:20.185+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:20.184+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:20.185+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:20.201+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.027 seconds
+[2026-05-13T16:30:51.129+0000] {processor.py:161} INFO - Started process (PID=36142) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:51.130+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:30:51.131+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:51.130+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:51.134+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:51.133+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:51.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:30:51.845+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.723 seconds
+[2026-05-13T16:31:22.109+0000] {processor.py:161} INFO - Started process (PID=36567) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:22.110+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:31:22.111+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:22.110+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:22.115+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:22.114+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:22.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:22.135+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.033 seconds
+[2026-05-13T16:31:55.892+0000] {processor.py:161} INFO - Started process (PID=37013) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:55.893+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:31:55.893+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:55.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:55.896+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:55.895+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:55.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:31:55.911+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.026 seconds
+[2026-05-13T16:32:26.297+0000] {processor.py:161} INFO - Started process (PID=37428) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:32:26.298+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py for tasks to queue
+[2026-05-13T16:32:26.298+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:26.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:32:26.301+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:26.300+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py", line 20, in <module>
+    from airflow.providers.common.compat.sdk import timezone
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:26.301+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py
+[2026-05-13T16:32:26.316+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_external_task_parent_deferrable.py took 0.025 seconds

@@ -1,0 +1,53 @@
+[2026-05-13T21:47:32.966+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-13T21:47:33.002+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_postgres_hook.probar_conexion manual__2026-05-13T21:47:30.001238+00:00 [queued]>
+[2026-05-13T21:47:33.006+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_postgres_hook.probar_conexion manual__2026-05-13T21:47:30.001238+00:00 [queued]>
+[2026-05-13T21:47:33.006+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-13T21:47:33.017+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): probar_conexion> on 2026-05-13 21:47:30.001238+00:00
+[2026-05-13T21:47:33.021+0000] {standard_task_runner.py:64} INFO - Started process 12149 to run task
+[2026-05-13T21:47:33.023+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'test_postgres_hook', 'probar_conexion', 'manual__2026-05-13T21:47:30.001238+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/test_postgres.py', '--cfg-path', '/tmp/tmpqay2y6kr']
+[2026-05-13T21:47:33.024+0000] {standard_task_runner.py:91} INFO - Job 50: Subtask probar_conexion
+[2026-05-13T21:47:33.069+0000] {task_command.py:426} INFO - Running <TaskInstance: test_postgres_hook.probar_conexion manual__2026-05-13T21:47:30.001238+00:00 [running]> on host codespaces-c105b0
+[2026-05-13T21:47:33.141+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_postgres_hook' AIRFLOW_CTX_TASK_ID='probar_conexion' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T21:47:30.001238+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-13T21:47:30.001238+00:00'
+[2026-05-13T21:47:33.142+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-13T21:47:33.268+0000] {base.py:84} INFO - Using connection ID 'postgres_local' for task execution.
+[2026-05-13T21:47:33.269+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-13T21:47:33.270+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow/dags/test_postgres.py", line 12, in probar_conexion
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 175, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2026-05-13T21:47:33.274+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=test_postgres_hook, task_id=probar_conexion, run_id=manual__2026-05-13T21:47:30.001238+00:00, execution_date=20260513T214730, start_date=20260513T214733, end_date=20260513T214733
+[2026-05-13T21:47:33.283+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 50 for task probar_conexion (connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 12149)
+[2026-05-13T21:47:33.319+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2026-05-13T21:47:33.335+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-05-13T21:47:33.341+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

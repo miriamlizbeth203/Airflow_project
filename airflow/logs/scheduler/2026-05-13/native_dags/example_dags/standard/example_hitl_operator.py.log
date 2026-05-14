@@ -1,0 +1,95 @@
+[2026-05-13T16:28:30.530+0000] {processor.py:161} INFO - Started process (PID=34401) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:28:30.530+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:28:30.531+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:30.531+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:28:30.628+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:30.627+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:30.628+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:28:30.640+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.117 seconds
+[2026-05-13T16:30:15.842+0000] {processor.py:161} INFO - Started process (PID=35561) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:15.843+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:30:15.844+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:15.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:15.847+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:15.846+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:15.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:15.862+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.026 seconds
+[2026-05-13T16:30:47.381+0000] {processor.py:161} INFO - Started process (PID=36077) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:47.382+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:30:47.383+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:47.383+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:47.388+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:47.387+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:47.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:30:47.423+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.050 seconds
+[2026-05-13T16:31:18.198+0000] {processor.py:161} INFO - Started process (PID=36520) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:18.199+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:31:18.200+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:18.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:18.203+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:18.202+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:18.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:18.218+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.025 seconds
+[2026-05-13T16:31:51.782+0000] {processor.py:161} INFO - Started process (PID=36961) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:51.783+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:31:51.783+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:51.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:51.787+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:51.786+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:51.787+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:31:51.801+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.025 seconds
+[2026-05-13T16:32:22.602+0000] {processor.py:161} INFO - Started process (PID=37358) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:32:22.603+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py for tasks to queue
+[2026-05-13T16:32:22.603+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:22.603+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:32:22.606+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:22.605+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py", line 25, in <module>
+    from airflow.providers.standard.operators.hitl import (
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:22.607+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py
+[2026-05-13T16:32:22.621+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_hitl_operator.py took 0.026 seconds

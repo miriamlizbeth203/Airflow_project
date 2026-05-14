@@ -1,0 +1,79 @@
+[2026-05-13T16:28:49.848+0000] {processor.py:161} INFO - Started process (PID=34650) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:28:49.849+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py for tasks to queue
+[2026-05-13T16:28:49.851+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:49.850+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:28:49.855+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:49.854+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py", line 23, in <module>
+    from airflow.providers.standard.triggers.file import FileDeleteTrigger
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:49.856+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:28:49.882+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py took 0.042 seconds
+[2026-05-13T16:30:34.547+0000] {processor.py:161} INFO - Started process (PID=35864) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:30:34.548+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py for tasks to queue
+[2026-05-13T16:30:34.551+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:34.550+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:30:34.555+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:34.554+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py", line 23, in <module>
+    from airflow.providers.standard.triggers.file import FileDeleteTrigger
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:34.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:30:34.580+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py took 0.041 seconds
+[2026-05-13T16:31:06.663+0000] {processor.py:161} INFO - Started process (PID=36360) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:06.664+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py for tasks to queue
+[2026-05-13T16:31:06.665+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:06.664+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:06.668+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:06.667+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py", line 23, in <module>
+    from airflow.providers.standard.triggers.file import FileDeleteTrigger
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:06.668+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:06.704+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py took 0.047 seconds
+[2026-05-13T16:31:38.488+0000] {processor.py:161} INFO - Started process (PID=36783) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:38.488+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py for tasks to queue
+[2026-05-13T16:31:38.489+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:38.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:38.492+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:38.491+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py", line 23, in <module>
+    from airflow.providers.standard.triggers.file import FileDeleteTrigger
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:38.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:31:38.507+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py took 0.025 seconds
+[2026-05-13T16:32:11.027+0000] {processor.py:161} INFO - Started process (PID=37208) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:32:11.027+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py for tasks to queue
+[2026-05-13T16:32:11.028+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:11.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:32:11.031+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:11.030+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py", line 23, in <module>
+    from airflow.providers.standard.triggers.file import FileDeleteTrigger
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/standard/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-standard:1.13.0` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:11.031+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py
+[2026-05-13T16:32:11.046+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_asset_with_watchers.py took 0.025 seconds

@@ -1,0 +1,24 @@
+[2026-05-13T23:01:33.352+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-05-13T23:01:33.367+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_postgres_hook.leer_datos manual__2026-05-13T23:01:19.794010+00:00 [queued]>
+[2026-05-13T23:01:33.371+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_postgres_hook.leer_datos manual__2026-05-13T23:01:19.794010+00:00 [queued]>
+[2026-05-13T23:01:33.371+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2026-05-13T23:01:33.382+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): leer_datos> on 2026-05-13 23:01:19.794010+00:00
+[2026-05-13T23:01:33.386+0000] {standard_task_runner.py:64} INFO - Started process 62786 to run task
+[2026-05-13T23:01:33.388+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'test_postgres_hook', 'leer_datos', 'manual__2026-05-13T23:01:19.794010+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/test_postgres.py', '--cfg-path', '/tmp/tmp85mgcu8d']
+[2026-05-13T23:01:33.388+0000] {standard_task_runner.py:91} INFO - Job 102: Subtask leer_datos
+[2026-05-13T23:01:33.414+0000] {task_command.py:426} INFO - Running <TaskInstance: test_postgres_hook.leer_datos manual__2026-05-13T23:01:19.794010+00:00 [running]> on host codespaces-c105b0
+[2026-05-13T23:01:33.604+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_postgres_hook' AIRFLOW_CTX_TASK_ID='leer_datos' AIRFLOW_CTX_EXECUTION_DATE='2026-05-13T23:01:19.794010+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-05-13T23:01:19.794010+00:00'
+[2026-05-13T23:01:33.605+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-05-13T23:01:33.610+0000] {base.py:84} INFO - Using connection ID 'postgres_local' for task execution.
+[2026-05-13T23:01:33.617+0000] {sql.py:495} INFO - Running statement: SELECT * FROM alumnos;, parameters: None
+[2026-05-13T23:01:33.618+0000] {sql.py:504} INFO - Rows affected: 3
+[2026-05-13T23:01:33.618+0000] {logging_mixin.py:188} INFO - Registros encontrados:
+[2026-05-13T23:01:33.619+0000] {logging_mixin.py:188} INFO - (31, 'Daniel', 25)
+[2026-05-13T23:01:33.619+0000] {logging_mixin.py:188} INFO - (32, 'Maria', 30)
+[2026-05-13T23:01:33.619+0000] {logging_mixin.py:188} INFO - (33, 'Carlos', 22)
+[2026-05-13T23:01:33.619+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-05-13T23:01:33.620+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-05-13T23:01:33.624+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=test_postgres_hook, task_id=leer_datos, run_id=manual__2026-05-13T23:01:19.794010+00:00, execution_date=20260513T230119, start_date=20260513T230133, end_date=20260513T230133
+[2026-05-13T23:01:33.684+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2026-05-13T23:01:33.705+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-05-13T23:01:33.708+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

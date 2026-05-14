@@ -1,0 +1,84 @@
+[2026-05-14T00:00:34.372+0000] {processor.py:161} INFO - Started process (PID=96479) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:00:34.373+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:00:34.374+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:00:34.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:00:34.692+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:00:34.704+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:00:34.704+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:00:34.717+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:00:34.717+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:00:34.732+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.364 seconds
+[2026-05-14T00:01:26.183+0000] {processor.py:161} INFO - Started process (PID=96883) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:01:26.184+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:01:26.185+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:01:26.184+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:01:26.494+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:01:26.510+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:01:26.510+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:01:26.537+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:01:26.537+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:01:26.558+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.379 seconds
+[2026-05-14T00:02:10.881+0000] {processor.py:161} INFO - Started process (PID=97257) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:10.882+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:02:10.883+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:10.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:11.149+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:11.163+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:11.163+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:02:11.175+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:11.175+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:02:11.190+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.313 seconds
+[2026-05-14T00:02:54.053+0000] {processor.py:161} INFO - Started process (PID=97595) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:54.053+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:02:54.054+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:54.054+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:54.440+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:02:54.457+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:54.457+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:02:54.473+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:02:54.473+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:02:54.488+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.440 seconds
+[2026-05-14T00:03:39.476+0000] {processor.py:161} INFO - Started process (PID=97957) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:03:39.477+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:03:39.477+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:03:39.477+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:03:39.749+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:03:39.762+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:03:39.762+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:03:39.774+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:03:39.774+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:03:39.789+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.318 seconds
+[2026-05-14T00:04:29.055+0000] {processor.py:161} INFO - Started process (PID=98347) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:04:29.056+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:04:29.057+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:04:29.057+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:04:29.351+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:04:29.366+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:04:29.366+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:04:29.379+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:04:29.379+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:04:29.396+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.346 seconds
+[2026-05-14T00:05:17.037+0000] {processor.py:161} INFO - Started process (PID=98769) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:17.038+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:05:17.038+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:17.038+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:17.308+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:17.320+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:17.320+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:05:17.333+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:17.333+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:05:17.350+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.318 seconds
+[2026-05-14T00:05:59.694+0000] {processor.py:161} INFO - Started process (PID=99098) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:59.695+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:05:59.696+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:59.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:59.964+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:05:59.976+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:59.975+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:05:59.987+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:05:59.987+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:06:00.006+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.316 seconds
+[2026-05-14T00:06:41.316+0000] {processor.py:161} INFO - Started process (PID=99424) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:06:41.317+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:06:41.318+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:06:41.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:06:41.671+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:06:41.684+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:06:41.683+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:06:41.696+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:06:41.695+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:06:41.710+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.398 seconds
+[2026-05-14T00:07:29.577+0000] {processor.py:161} INFO - Started process (PID=99814) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:07:29.578+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:07:29.579+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:07:29.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:07:29.927+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:07:29.940+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:07:29.939+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:07:29.958+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:07:29.957+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:07:29.974+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.401 seconds
+[2026-05-14T00:08:14.828+0000] {processor.py:161} INFO - Started process (PID=100185) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:08:14.829+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:08:14.830+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:08:14.829+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:08:15.159+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:08:15.171+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:08:15.171+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:08:15.183+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:08:15.183+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:08:15.198+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.374 seconds
+[2026-05-14T00:09:00.014+0000] {processor.py:161} INFO - Started process (PID=100963) to work on /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:09:00.014+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow/dags/etl_Miriam.py for tasks to queue
+[2026-05-14T00:09:00.015+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:09:00.015+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:09:00.331+0000] {processor.py:840} INFO - DAG(s) 'etl_productos_ejercicio' retrieved from /workspaces/Airflow_project/airflow/dags/etl_Miriam.py
+[2026-05-14T00:09:00.346+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:09:00.346+0000] {dag.py:3089} INFO - Sync 1 DAGs
+[2026-05-14T00:09:00.361+0000] {logging_mixin.py:188} INFO - [2026-05-14T00:09:00.361+0000] {dag.py:3947} INFO - Setting next_dagrun for etl_productos_ejercicio to 2026-05-14 00:00:00+00:00, run_after=2026-05-15 00:00:00+00:00
+[2026-05-14T00:09:00.375+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow/dags/etl_Miriam.py took 0.366 seconds

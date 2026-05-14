@@ -1,0 +1,95 @@
+[2026-05-13T16:28:26.501+0000] {processor.py:161} INFO - Started process (PID=34360) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:28:26.502+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:28:26.503+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:26.502+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:28:26.507+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:26.506+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:26.507+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:28:26.528+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.036 seconds
+[2026-05-13T16:30:11.969+0000] {processor.py:161} INFO - Started process (PID=35454) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:11.970+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:30:11.971+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:11.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:11.974+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:11.973+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:11.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:11.989+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.028 seconds
+[2026-05-13T16:30:43.286+0000] {processor.py:161} INFO - Started process (PID=35991) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:43.287+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:30:43.288+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:43.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:43.292+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:43.291+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:43.293+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:30:43.312+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.034 seconds
+[2026-05-13T16:31:15.326+0000] {processor.py:161} INFO - Started process (PID=36474) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:15.327+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:31:15.328+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.327+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:15.331+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.330+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:15.331+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:15.353+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.034 seconds
+[2026-05-13T16:31:47.793+0000] {processor.py:161} INFO - Started process (PID=36911) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:47.794+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:31:47.795+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:47.794+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:47.798+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:47.797+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:47.800+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:31:47.823+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.037 seconds
+[2026-05-13T16:32:18.595+0000] {processor.py:161} INFO - Started process (PID=37311) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:32:18.596+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py for tasks to queue
+[2026-05-13T16:32:18.596+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:18.596+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:32:18.599+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:18.598+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py", line 23, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:18.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py
+[2026-05-13T16:32:18.614+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_short_circuit_decorator.py took 0.026 seconds

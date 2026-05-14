@@ -1,0 +1,199 @@
+[2026-05-13T16:28:47.284+0000] {processor.py:161} INFO - Started process (PID=34630) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:28:47.285+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py for tasks to queue
+[2026-05-13T16:28:47.286+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:47.286+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:28:47.295+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:47.291+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py", line 23, in <module>
+    from airflow.sdk import DAG, task
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 43, in <module>
+    from airflow.sdk import TaskInstanceState, TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/api/datamodels/_generated.py", line 28, in <module>
+    from pydantic import AwareDatetime, BaseModel, ConfigDict, Field, JsonValue, RootModel
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/__init__.py", line 5, in <module>
+    from ._migration import getattr_migration
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/_migration.py", line 4, in <module>
+    from pydantic.warnings import PydanticDeprecatedSince20
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/warnings.py", line 5, in <module>
+    from .version import version_short
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/version.py", line 7, in <module>
+    from pydantic_core import __version__ as __pydantic_core_version__
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic_core/__init__.py", line 6, in <module>
+    from typing_extensions import Sentinel
+ImportError: cannot import name 'Sentinel' from 'typing_extensions' (/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/typing_extensions.py). Did you mean: '_Sentinel'?
+[2026-05-13T16:28:47.296+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:28:47.312+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py took 0.034 seconds
+[2026-05-13T16:30:31.939+0000] {processor.py:161} INFO - Started process (PID=35815) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:30:31.940+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py for tasks to queue
+[2026-05-13T16:30:31.942+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:31.941+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:30:31.953+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:31.948+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py", line 23, in <module>
+    from airflow.sdk import DAG, task
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 43, in <module>
+    from airflow.sdk import TaskInstanceState, TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/api/datamodels/_generated.py", line 28, in <module>
+    from pydantic import AwareDatetime, BaseModel, ConfigDict, Field, JsonValue, RootModel
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/__init__.py", line 5, in <module>
+    from ._migration import getattr_migration
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/_migration.py", line 4, in <module>
+    from pydantic.warnings import PydanticDeprecatedSince20
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/warnings.py", line 5, in <module>
+    from .version import version_short
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/version.py", line 7, in <module>
+    from pydantic_core import __version__ as __pydantic_core_version__
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic_core/__init__.py", line 6, in <module>
+    from typing_extensions import Sentinel
+ImportError: cannot import name 'Sentinel' from 'typing_extensions' (/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/typing_extensions.py). Did you mean: '_Sentinel'?
+[2026-05-13T16:30:31.957+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:30:31.993+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py took 0.063 seconds
+[2026-05-13T16:31:04.942+0000] {processor.py:161} INFO - Started process (PID=36336) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:04.943+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py for tasks to queue
+[2026-05-13T16:31:04.944+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:04.944+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:04.953+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:04.949+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py", line 23, in <module>
+    from airflow.sdk import DAG, task
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 43, in <module>
+    from airflow.sdk import TaskInstanceState, TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/api/datamodels/_generated.py", line 28, in <module>
+    from pydantic import AwareDatetime, BaseModel, ConfigDict, Field, JsonValue, RootModel
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/__init__.py", line 5, in <module>
+    from ._migration import getattr_migration
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/_migration.py", line 4, in <module>
+    from pydantic.warnings import PydanticDeprecatedSince20
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/warnings.py", line 5, in <module>
+    from .version import version_short
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/version.py", line 7, in <module>
+    from pydantic_core import __version__ as __pydantic_core_version__
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic_core/__init__.py", line 6, in <module>
+    from typing_extensions import Sentinel
+ImportError: cannot import name 'Sentinel' from 'typing_extensions' (/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/typing_extensions.py). Did you mean: '_Sentinel'?
+[2026-05-13T16:31:04.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:04.990+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py took 0.056 seconds
+[2026-05-13T16:31:35.664+0000] {processor.py:161} INFO - Started process (PID=36742) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:35.664+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py for tasks to queue
+[2026-05-13T16:31:35.665+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:35.665+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:35.673+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:35.670+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py", line 23, in <module>
+    from airflow.sdk import DAG, task
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 43, in <module>
+    from airflow.sdk import TaskInstanceState, TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/api/datamodels/_generated.py", line 28, in <module>
+    from pydantic import AwareDatetime, BaseModel, ConfigDict, Field, JsonValue, RootModel
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/__init__.py", line 5, in <module>
+    from ._migration import getattr_migration
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/_migration.py", line 4, in <module>
+    from pydantic.warnings import PydanticDeprecatedSince20
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/warnings.py", line 5, in <module>
+    from .version import version_short
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/version.py", line 7, in <module>
+    from pydantic_core import __version__ as __pydantic_core_version__
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic_core/__init__.py", line 6, in <module>
+    from typing_extensions import Sentinel
+ImportError: cannot import name 'Sentinel' from 'typing_extensions' (/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/typing_extensions.py). Did you mean: '_Sentinel'?
+[2026-05-13T16:31:35.676+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:31:35.714+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py took 0.057 seconds
+[2026-05-13T16:32:07.623+0000] {processor.py:161} INFO - Started process (PID=37175) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:32:07.624+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py for tasks to queue
+[2026-05-13T16:32:07.625+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:07.624+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:32:07.632+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:07.629+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py", line 23, in <module>
+    from airflow.sdk import DAG, task
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/definitions/dag.py", line 43, in <module>
+    from airflow.sdk import TaskInstanceState, TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/__init__.py", line 245, in __getattr__
+    mod = importlib.import_module(module_path, __name__)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.python/current/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/sdk/api/datamodels/_generated.py", line 28, in <module>
+    from pydantic import AwareDatetime, BaseModel, ConfigDict, Field, JsonValue, RootModel
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/__init__.py", line 5, in <module>
+    from ._migration import getattr_migration
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/_migration.py", line 4, in <module>
+    from pydantic.warnings import PydanticDeprecatedSince20
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/warnings.py", line 5, in <module>
+    from .version import version_short
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic/version.py", line 7, in <module>
+    from pydantic_core import __version__ as __pydantic_core_version__
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/pydantic_core/__init__.py", line 6, in <module>
+    from typing_extensions import Sentinel
+ImportError: cannot import name 'Sentinel' from 'typing_extensions' (/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/typing_extensions.py). Did you mean: '_Sentinel'?
+[2026-05-13T16:32:07.634+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py
+[2026-05-13T16:32:07.655+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/example_failed_dag.py took 0.038 seconds

@@ -1,0 +1,95 @@
+[2026-05-13T16:28:28.765+0000] {processor.py:161} INFO - Started process (PID=34376) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:28:28.765+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:28:28.766+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:28.766+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:28:28.769+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:28:28.768+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:28:28.769+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:28:28.788+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.029 seconds
+[2026-05-13T16:30:13.744+0000] {processor.py:161} INFO - Started process (PID=35509) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:13.745+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:30:13.748+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:13.747+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:13.754+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:13.751+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:13.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:13.820+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.089 seconds
+[2026-05-13T16:30:45.029+0000] {processor.py:161} INFO - Started process (PID=36035) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:45.030+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:30:45.031+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:45.031+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:45.036+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:30:45.034+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:30:45.036+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:30:45.067+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.046 seconds
+[2026-05-13T16:31:15.814+0000] {processor.py:161} INFO - Started process (PID=36490) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:15.814+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:31:15.815+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:15.818+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:15.817+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:15.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:15.835+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.027 seconds
+[2026-05-13T16:31:50.064+0000] {processor.py:161} INFO - Started process (PID=36925) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:50.064+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:31:50.065+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:50.065+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:50.068+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:31:50.067+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:31:50.069+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:31:50.084+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.026 seconds
+[2026-05-13T16:32:20.871+0000] {processor.py:161} INFO - Started process (PID=37341) to work on /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:32:20.872+0000] {processor.py:830} INFO - Processing file /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py for tasks to queue
+[2026-05-13T16:32:20.873+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:20.872+0000] {dagbag.py:545} INFO - Filling up the DagBag from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:32:20.876+0000] {logging_mixin.py:188} INFO - [2026-05-13T16:32:20.875+0000] {dagbag.py:355} ERROR - Failed to import: /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+Traceback (most recent call last):
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 994, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py", line 24, in <module>
+    from airflow.providers.common.compat.sdk import TriggerRule
+  File "/workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/providers/common/compat/__init__.py", line 37, in <module>
+    raise RuntimeError(
+RuntimeError: The package `apache-airflow-providers-common-compat:1.14.3` needs Apache Airflow 2.11.0+
+[2026-05-13T16:32:20.876+0000] {processor.py:842} WARNING - No viable dags retrieved from /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py
+[2026-05-13T16:32:20.891+0000] {processor.py:183} INFO - Processing /workspaces/Airflow_project/airflow_env/lib/python3.12/site-packages/airflow/example_dags/standard/example_sensors.py took 0.026 seconds
